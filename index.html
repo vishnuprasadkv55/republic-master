@@ -7,8 +7,9 @@
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
         <meta name="author" content="Colorlib" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="shortcut icon" href="images/favicon.png" />
+        <link href="https://fonts.googleapis.com/css?family=Atma" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
@@ -27,15 +28,18 @@
         <!-- Menu -->
         <div class="menu-wrapper center-relative">
             <nav id="header-main-menu">
+                <div class="side-wrap" height="120px"></div>
+                    <!-- <img class="logo-mainr" src="demo-images/cropped.png" alt="" height="95" width="unset"> -->
                 <div class="mob-menu">MENU</div>
                 <ul class="main-menu sm sm-clean">
+                    <li> <img class="logo-mainr" src="demo-images/cropped.png" alt="" height="95" width="unset"></li>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#video">Video</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Programs</a></li>
+                    <li><a href="#portfolio">Curriculum</a></li>
+                    <li><a href="#about">Admissions</a></li>
+                    <li><a href="#news">Blog</a></li>
+                    <li><a href="#video">Gallery</a></li>
+                    <li><a href="#skills">About us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -46,11 +50,47 @@
         <!-- Home -->
 
         <div id="home" class="section intro-page">
+            <!----slider-->
+            <!-- <div class="info">This resource was inspired by this <a target="_blank" href="https://dribbble.com/shots/2705517-boldybae">dribbble shot</a> by the talented <a href="https://dribbble.com/tokito" target="_blank">Tokito.</a></div> -->
+<section class="cd-slider">
+  <ul>
+    <li data-color="#FF384B">
+      <div class="content" style="background-image:url(https://i.imgur.com/i7VlkGV.png?2)">
+        <blockquote>
+          <p>I got my red dress on tonight dancing in the dark in the pale moonlight.</p>
+          <span>Summertime Sadness - Lana Del Rey</span>
+        </blockquote>
+      </div>
+    </li>
+    <li data-color="#FF9C00">
+      <div class="content" style="background-image:url(https://i.imgur.com/i7VlkGV.png?2)">
+        <blockquote>
+          <p>Will you still love me When I'm no longer young and beautiful Will you still love me</p>
+          <span>Young And Beautiful - Lana Del Rey</span>
+        </blockquote>
+      </div>
+    </li>
+    <li data-color="#002AFF">
+      <div class="content" style="background-image:url(https://i.imgur.com/i7VlkGV.png?2)">
+        <blockquote>
+          <p>Blue jeans White shirt Walked into the room You know you made my eyes burn</p>
+          <span>Blue Jeans - Lana Del Rey</span>
+        </blockquote>
+      </div>
+    </li>
+  </ul>
+  <nav>
+    <div><a class="prev" href="#"></a></div>
+    <div><a class="next" href="#"></a></div>
+  </nav>
+</section>
+
+            <!----slider-->
             <div class="block content-1170 center-relative center-text">
-                <img class="top-logo" src="demo-images/logo.png" alt="Boxus" />
+                <img data-aos="fade-up" class="top-logo" src="demo-images/exact-round.png" alt="Boxus" />
                 <br>
-                <h1 class="big-title">We Craft Awesome Web And <span>Graphic Design Solutions</span></h1>
-                <p class="title-desc">Support bright students today for a better tomorrow</p>
+                <h1 data-aos="fade-in" class="big-title">“The great aim of education is <span>not knowledge but action"</span></h1>
+                <p data-aos="fade-down" class="title-desc">Herbert Spencer</p>
             </div>
         </div>
         
@@ -65,7 +105,7 @@
                     <div class="section-num">
                         <span>01</span>
                     </div>
-                    <h2 class="entry-title">Services</h2>
+                    <h2 class="entry-title">Programs</h2>
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
@@ -80,54 +120,54 @@
                             <ul id="slider1" class="image-slider slides">
                                 <li>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_01.png" alt="">
+                                        <img src="demo-images/ball.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title">BRANDING</div>
+                                            <div class="service-title">Play Group</div>
                                             <div class="service-content">
-                                                Donecos arem ipsum sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                                Our play group is for active learners. Teachers and children become active partners in the learning process.<br />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_02.png" alt="">
+                                        <img src="demo-images/kid.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title">MOBILE APPS</div>
-                                            <div class="service-content">
-                                                Disum lorem sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                            <div class="service-title">After School Care</div>
+                                            <div class="service-content">                              
+                                                For your after-schooler, this is the ideal place when the child is back from school.<br />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_03.png" alt="">
+                                        <img src="demo-images/boat_new.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title">WEB</div>
+                                            <div class="service-title">Weekend Activity</div>
                                             <div class="service-content">
-                                                Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod.<br />
+                                                    Our weekend program rolled out in 8 Saturdays is called "Success Saturday" and focuses on life skills required to craft a successful mind.<br />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_04.png" alt="">
+                                        <img src="demo-images/kindergarten.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title">GRAPHIC</div>
+                                            <div class="service-title">Kinder garten</div>
                                             <div class="service-content">
-                                                Cadipisicing elit sed eiusmod tempor incididunt ut labore lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet.<br />
+                                                coming soon..<br />
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_03.png" alt="">
+                                        <img src="demo-images/ice_cream.png" alt="">
                                         <div class="service-content-holder">
-                                            <div class="service-title">SERVICES</div>
+                                            <div class="service-title">Summer Camp</div>
                                             <div class="service-content">
-                                                Donecos arem ipsum sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                                    We run a one month summer camp from first week of April till first week of May every year under the banner "Forever Land".<br />
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="service-holder ">
-                                        <img src="demo-images/icon_04.png" alt="">
+                                    <!--<div class="service-holder ">
+                                        <img src="demo-images/ice_cream.png" alt="">
                                         <div class="service-content-holder">
                                             <div class="service-title">PSD</div>
                                             <div class="service-content">
@@ -136,7 +176,7 @@
                                         </div>
                                     </div>
                                     <div class="service-holder ">
-                                        <img src="demo-images/icon_02.png" alt="">
+                                        <img src="demo-images/ice_cream.png" alt="">
                                         <div class="service-content-holder">
                                             <div class="service-title">HTML</div>
                                             <div class="service-content">
@@ -152,7 +192,7 @@
                                                 Cadipisicing elit sed eiusmod tempor incididunt ut labore lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet.<br />
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </li>
                             </ul>
                             <div class = "clear"></div>
@@ -172,7 +212,7 @@
                     <div class="section-num">
                         <span>02</span>
                     </div>
-                    <h2 class="entry-title">Portfolio</h2>
+                    <h2 class="entry-title">Curriculum</h2>
                 </div>
                 <div class="section-content-holder portfolio-holder left">
                     <div class="grid" id="portfolio-grid">
@@ -254,12 +294,12 @@
                     <div class="section-num">
                         <span>03</span>
                     </div>
-                    <h2 class="entry-title">CRAFTERS</h2>
+                    <h2 class="entry-title">Admissions</h2>
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
                         <div class="content-title-holder">
-                            <p class="content-title">About</p>
+                            <p class="content-title">Admissions</p>
                         </div>
                         <div class="one_half ">
                             Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum <strong>dolor sit amet</strong> consectetur est adipisicing elit, sed do eiusmod tempor
@@ -364,7 +404,7 @@
                             04
                         </span>
                     </div>
-                    <h2 class="entry-title">STORIES</h2>
+                    <h2 class="entry-title">Blog</h2>
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
@@ -376,7 +416,7 @@
                                     <div class="author vcard ">Robert Williams</div>
                                     <div class="cat-links">
                                         <ul>
-                                            <li><a href="#">BRANDING</a></li>
+                                            <li><a href="#">Play Group</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -494,7 +534,7 @@
                             05
                         </span>
                     </div>
-                    <h2 class="entry-title">OFFER</h2>
+                    <h2 class="entry-title">Gallery</h2>
                 </div>
                 <div class="section-content-holder right">
                     <div class="content-wrapper">
@@ -583,7 +623,7 @@
                     <div class="section-num">
                         <span>06</span>
                     </div>
-                    <h2 class="entry-title">EXPERTISE</h2>
+                    <h2 class="entry-title">About us</h2>
                 </div>
                 <div class="section-content-holder left">
                     <div class="content-wrapper">
@@ -684,6 +724,7 @@
 
 
         <!--Load JavaScript-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
         <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
